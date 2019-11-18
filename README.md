@@ -1,4 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Management System
+리엑트 공부하기 위해 프로그램 입니다
+
 
 ## Available Scripts
 
