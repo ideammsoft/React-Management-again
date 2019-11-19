@@ -41,17 +41,20 @@ this.addCustomer = this.addCustomer.bind(this)
 
 
 handleFormSubmit(e) {
-
-e.preventDefault()
-
-this.addCustomer()
-
-.then((response) => {
-
-console.log(response.data);
-
-})
-
+    e.preventDefault()
+    this.addCustomer()
+        .then((response) => {
+            console.log(response.data);
+            this.props.stateRefresh();
+        })
+    this.setState({
+        file: null,
+        userName: '',
+        birthday: '',
+        gender: '',
+        job: '',
+        fileName: ''
+    })
 }
 
 
