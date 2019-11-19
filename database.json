@@ -1,7 +1,0 @@
-{
-    "host": "management-tutorial.cmo0jtxfr6l9.us-east-2.rds.amazonaws.com",
-    "user": "adminkslee",
-    "password": "manyman458797",
-    "port":"3306",
-    "database": "management"
-}
