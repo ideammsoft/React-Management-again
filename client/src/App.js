@@ -161,7 +161,7 @@ class App extends Component {
               <MenuIcon />
             </IconButton>
             <Typography className={classes.title} variant="h6" noWrap>
-              고객 관리 시스템2222
+              고객 관리 시스템
             </Typography>
             <div className={classes.search}>
               <div className={classes.searchIcon}>
